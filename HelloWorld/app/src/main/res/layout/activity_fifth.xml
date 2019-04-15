@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <Button
+            android:id="@+id/firstBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="第一个button"
+
+
+            />
+        <Button
+            android:id="@+id/secondBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/firstBt"
+            android:textSize="14dp"
+            android:text="第二个button"
+            />
+
+
+    </TableRow>
+    <Button
+        android:id="@+id/thirdBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstBt"
+        android:textSize="14dp"
+        android:text="第三个button"
+
+
+        />
+    <TableRow>
+        <Button
+            android:id="@+id/fouthBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondBt"
+            android:layout_toRightOf="@id/thirdBt"
+            android:textSize="14dp"
+            android:text="第四个button"
+
+            />
+    </TableRow>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="返回" />
+    </RelativeLayout>
+
+</TableLayout>

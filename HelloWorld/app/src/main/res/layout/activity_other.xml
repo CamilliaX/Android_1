@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/changeHor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="水平布局"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+
+            />
+
+        <Button
+            android:id="@+id/changeVer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="垂直布局"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+
+            />
+
+        <Button
+            android:id="@+id/changeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="靠左对齐"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:id="@+id/returnBt"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="返回"
+
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
